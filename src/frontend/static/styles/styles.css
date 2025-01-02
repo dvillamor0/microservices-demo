@@ -675,3 +675,25 @@ the rules below could be extracted.
   width: 10px;
   height: 5px;
 }
+
+#animacionElegante {
+  animation: cambiarColor 10s infinite linear;
+}
+
+@keyframes cambiarColor {
+  0% {
+    color: hsl(0, 100%, 50%);
+  }
+  25% {
+    color: hsl(90, 100%, 50%);
+  }
+  50% {
+    color: hsl(180, 100%, 50%);
+  }
+  75% {
+    color: hsl(270, 100%, 50%);
+  }
+  100% {
+    color: hsl(360, 100%, 50%);
+  }
+}
